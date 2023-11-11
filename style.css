@@ -1,0 +1,212 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: gray;
+
+
+}
+
+header {
+    background-color: black;
+
+}
+
+.nav {
+    background-color: black;
+    height: 80px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav h3 {
+    padding: 5PX;
+    border: solid 1PX rgb(53, 165, 118);
+    font-family: 'Tourney', sans-serif;
+    cursor: pointer;
+    color: rgb(53, 165, 118);
+
+}
+
+.btn {
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 6px;
+    overflow: hidden;
+    gap: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+main {}
+
+.btn button {
+
+    cursor: pointer;
+    background-color: rgb(53, 165, 118);
+    width: fit-content;
+    padding: 0 5px 0 5px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn button:hover {
+    background-color: rgb(71, 231, 164);
+}
+
+footer {
+    position: fixed;
+}
+
+section {
+    border-radius: 10px;
+    width: 100%;
+    height: 100vh;
+    padding-top: 10%;
+}
+
+section h1 {
+
+    font-size: 40px;
+    margin: 20px 10% 0 10%;
+    text-align: center;
+    position: relative;
+
+}
+
+section h3 {
+
+    padding-top: 20px;
+    font-size: 30px;
+    margin: 20px 10% 0 10%;
+    text-align: center;
+    position: relative;
+
+}
+
+section p {
+
+    padding-top: 45px;
+    font-size: 25px;
+    margin: 20px 10% 0 10%;
+    text-align: center;
+    margin-bottom: 15%;
+    position: relative;
+
+}
+
+article {
+    margin-top: -60px;
+    background-color: gray;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+
+}
+
+section::before {
+    content: '';
+    background-image: url(./Background/pexels-photo-2118045.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 10%;
+    left: 0px;
+    bottom: 0;
+    right: 0;
+    opacity: 0.39;
+}
+
+.card1 {
+    font-size: 20px;
+
+    width: 80%;
+    height: min-content;
+    margin: 10% 10%;
+
+
+}
+
+.card1 p {
+    text-align: center;
+
+}
+
+.card1 img {
+    text-align: center;
+    margin-top: 55px;
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    justify-content: center;
+    margin-top: 70px;
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    position: relative;
+}
+
+footer nav li {
+    height: 50px;
+    font-family: font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.copyright p {
+    float: right;
+    font-size: 12px;
+    align-items: center;
+    color: white;
+}
+.logosite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+}
+.logosite h3{
+    position: absolute;
+    border: solid 1PX rgb(53, 165, 118);
+    font-family: 'Tourney', sans-serif;
+    cursor: pointer;
+    color: rgb(53, 165, 118);
+    
+
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    
+}
+.copyright p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}

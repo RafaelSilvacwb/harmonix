@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-image: url(Background/pexels-photo-2118045.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+.transition {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    position: absolute;
+    margin-left: 235px;
+    margin-top: 125px;
+}
+
+.login {
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    float: right;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+
+
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    top: 20px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    width: 60%;
+    gap: 20px;
+    height: min-content;
+
+
+
+}
+
+.user input {
+    outline: none;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+
+}
+
+.user h3 {
+    color: rgb(53, 165, 118);
+    font-size: 19px;
+}
+
+.user button {
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 50px;
+    border: none;
+    height: 30px;
+    cursor: pointer;
+}
+
+.user button:hover {
+    background-color: rgb(53, 165, 118);
+    box-shadow: rgb(53, 165, 118) 0 0 15px;
+}
+
+.check {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+
+}
+
+.check input {
+    width: 13px;
+    margin-right: 4px;
+    height: 13px;
+}
+
+.check span{
+    font-weight: bold;
+}
+
+.check p {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+}
+
+.check a {
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+.redessociais{
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    
+}
+.redessociais img{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+.redessociais img:hover{
+    transform: scale(1.1);
+    
+}
+.redessociais h1{
+    font-weight: bold;
+}
+.home{
+    position: relative;
+}
+.home button{
+    cursor: pointer;
+    margin-top: 50px;
+    border: none;
+    border-radius: 50px;
+    height: 30px;
+    width: 100px;
+    bottom: 0px;
+    background-color: white;
+}
+.home a{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.home button:hover{
+    background-color: rgb(53, 165, 118);
+    box-shadow: rgb(53, 165, 118) 0 0 15px;
+}
